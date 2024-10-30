@@ -1,0 +1,11 @@
+name: miniGamePlugin
+version: '${project.version}'
+main: com.chigayuki.minecraft.MiniGamePlugin
+api-version: '1.16'
+commands:
+  basic:
+    description: This is a demo command.
+    usage: /<command> [player]
+  ignite:
+    description: This is a fire command.
+    usage: /<command> [player]
